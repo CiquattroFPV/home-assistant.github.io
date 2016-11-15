@@ -55,7 +55,7 @@ automation:
     zone: zone.home
     entity_id: device_tracker.paulus
   condition:
-    platform: time
+    condition: time
     after: '20:00'
   action:
     service: notify.notify
